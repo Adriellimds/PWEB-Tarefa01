@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+}
+
+body {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #faf9f8;
+}
+
+.grandpa {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  height: 40rem;
+  background-color: white;
+  padding: 2rem;
+  justify-content: space-between;
+}
+
+.grandma {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40rem;
+  height: 20rem;
+}
+.child1 {
+  background-color: #5d386b;
+  height: 19rem;
+  width: 19.5rem;
+}
+.child2 {
+  display: flex;
+  flex-direction: row;
+  height: 19rem;
+  width: 19.5rem;
+}
+.grandchild {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 19rem;
+  width: 9.75rem;
+}
+
+.grandson {
+  height: 49%;
+  width: 95%;
+  background-color: #93c7b1;
+}
+
+#child1b {
+  background-color: #0ea6e9;
+  height: 19rem;
+  width: 19.5rem;
+}

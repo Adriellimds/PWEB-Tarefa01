@@ -1,0 +1,89 @@
+* {
+  margin: 0px;
+}
+
+body {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #faf9f8;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 2rem;
+  color: white;
+}
+#Titulo {
+  color: black;
+  font-size: 2rem;
+}
+.grandpa {
+  display: flex;
+  padding: 1.5rem;
+  justify-content: center;
+  background-color: #ffffff;
+  width: 20rem;
+  height: 35rem;
+}
+
+.father {
+  display: flex;
+  flex-direction: column;
+  background-color: #d0d0d0;
+  padding: 2.5rem 1.5rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.child2 {
+  height: 15%;
+  background-color: #c2ff76;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.father2 {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.child1 {
+  width: 49%;
+  background-color: #ff7171;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.child3 {
+  width: 49%;
+  background-color: #ff9bf7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.child4 {
+  height: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.grandchild4a {
+  height: 47%;
+  background-color: #9ba4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.grandchild4b {
+  height: 47%;
+  background-color: #9ba4ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
